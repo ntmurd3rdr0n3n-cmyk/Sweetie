@@ -26,7 +26,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Sweetie Strawie Bluie Goldie Rainie Shrimpie",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 3,
       },
     ],
   },
@@ -159,15 +159,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Art Piece",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Art Pieces",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "AP",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 20,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
@@ -267,7 +267,7 @@ export const botConfig = {
     maximumDuration: 2592000000,
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1517934054174101687, 1517934076064043068],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -281,7 +281,7 @@ export const botConfig = {
     defaultRole: null,
 
     // Channel ID where birthday announcements are posted.
-    announcementChannel: null,
+    announcementChannel: 1520106499496476763,
 
     // Timezone used to calculate birthday dates.
     timezone: "UTC",
@@ -443,10 +443,10 @@ export const botConfig = {
     leveling: true,
     moderation: true,
     logging: true,
-    welcome: true,
+    welcome: false,
 
     // Community engagement systems.
-    tickets: true,
+    tickets: false,
     giveaways: true,
     birthday: true,
     counter: true,
