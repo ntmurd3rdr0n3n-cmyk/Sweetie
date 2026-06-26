@@ -424,13 +424,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "i know it looks fun but you cant do that!",
+    cooldownActive: "Come back in {time} and maybe you can do that.",
+    errorOccurred: "Sorry, We are fixing this area of the gallery.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "Nah.",
+    commandDisabled: "That looked like so much fun... im sorry you cant do that.",
+    maintenanceMode: "I HATE YOU.",
   },
 
   // =========================
