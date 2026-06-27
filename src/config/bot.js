@@ -163,7 +163,7 @@ export const botConfig = {
       // Plural display name.
       namePlural: "Art Pieces",
       // Currency symbol shown in balances.
-      symbol: "AP",
+      symbol: "@",
     },
 
     // Starting balance for new users.
