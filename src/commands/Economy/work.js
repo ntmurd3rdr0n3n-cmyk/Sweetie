@@ -10,13 +10,13 @@ const MIN_WORK_AMOUNT = 50;
 const MAX_WORK_AMOUNT = 300;
 const LAPTOP_MULTIPLIER = 1.5;
 const WORK_JOBS = [
-    "Software Developer",
+    "Artist",
     "Barista",
     "Janitor",
-    "YouTuber",
-    "Discord Bot Developer",
+    "Security",
+    "i dont even know anymore",
     "Cashier",
-    "Pizza Delivery Driver",
+    "Chef",
     "Librarian",
     "Gardener",
     "Data Analyst",
